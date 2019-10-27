@@ -1,0 +1,13 @@
+{
+  "name": "veri-iletisimi-bilgisayar-aglari-odev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "private": "node private.js"
+  },
+  "author": "Çağatay Çalı",
+  "license": "ISC"
+}
