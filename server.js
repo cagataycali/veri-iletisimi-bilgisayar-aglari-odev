@@ -43,7 +43,6 @@ server.on('connection', socket => {
       const s = connections.find(conn => conn.id === id)
       s.socket.write(JSON.stringify({ status, message, type }))
     }
-    // console.log(socket.id, 'bunu yazdı', chunk.toString())
   })
 
   // When the client requests to end the TCP connection with the server, the server
