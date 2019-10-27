@@ -15,7 +15,9 @@ TCP P2P Network
 
 **Usage**
 
-git clone ...
+```
+git clone git@github.com:cagataycali/veri-iletisimi-bilgisayar-aglari-odev.git
 npm run server # starts server from ::8080.
 npm run client # connect one client to network.
 npm run private # private message sender client.
+```
